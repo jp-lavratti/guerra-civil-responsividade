@@ -1,58 +1,52 @@
-body{
-    background-color: #e1e2e1;
+body {
+  background-color: #e1e2e1;
 }
-header{
-    padding: 10px 5px;
-    background-color: crimson;
+header {
+  padding: 10px 5px;
+  background-color: crimson;
 }
-header .logo{
-    display: inline-block;
+header .logo {
+  display: inline-block;
 }
 header nav {
-    float: right;
+  float: right;
 }
 header nav ul li {
-     display: inline-block;
-    padding: 15px; 
+  display: inline-block;
+  padding: 15px;
 }
 
-main{
-    background-color: white;
-    padding:30px;
-    min-width: 320px;
-    max-width: 900px;
-    margin: 0 auto;
+main {
+  background-color: white;
+  padding: 30px;
+  min-width: 320px;
+  max-width: 900px;
+  margin: 0 auto;
 }
-img{
-    width: 900px;
-}
-
-
-@media (max-width: 576px) {  
-    header nav {
-        float: none;
-    }
-    header nav ul li {
-        display: block; 
-    }
-    header{
-        text-align: center;
-    }
-    img{
-        width: 350px;
-    }
-} 
-
-@media (max-width: 768px) {  
-
+img {
+  width: 900px;
 }
 
-
-@media (max-width: 992px) {  
-
+@media (max-width: 601px) {
+  header nav {
+    float: none;
+  }
+  header nav ul li {
+    display: block;
+  }
+  header {
+    text-align: center;
+  }
+  img {
+    width: 350px;
+  }
 }
 
+@media (max-width: 768px) {
+}
 
-@media (max-width: 1200px) {  
+@media (max-width: 992px) {
+}
 
+@media (max-width: 1200px) {
 }
